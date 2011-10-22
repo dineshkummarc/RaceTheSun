@@ -1,0 +1,52 @@
+body {margin:24px; padding:0; background: #fff;}
+
+
+.plato {
+    width: 500px;
+    height: 500px;
+    /*border:  1px solid black;*/
+    /*position: relative;*/
+    /*background: #eee;*/
+}
+.buttons {
+    width: 500px;
+    margin: 20px 0;
+}
+
+.stat {
+    left: 550px;
+    position: absolute;
+    top: 24px;
+}
+
+.sun {
+    background: #fafbc3;
+    width:50px;
+    height: 50px;
+    margin: -25px 0 0 -25px;
+    position: absolute;
+}
+
+.lifeform {
+    cursor: pointer;
+    background: #ffffff;
+    border: 1px solid #000;
+    -moz-box-shadow: 0px 0px 0px #ffffff;
+    -webkit-box-shadow: 0px 0px 0px #ffffff;
+    box-shadow: 0px 0px 0px #111111;
+    width:5px;
+    height: 5px;
+    margin: -2.5px 0 0 -2.5px;
+    position: absolute;
+}
+.dead {
+    background: #7c0003 !important;
+    border: 1px solid #530103 !important;
+    -moz-box-shadow: 0px 0px 5px #b31115 !important;
+    -webkit-box-shadow: 0px 0px 5px #b31115 !important;
+    box-shadow: 0px 0px 5px #b31115 !important;
+    z-index: 0;
+}
+.eater {
+    z-index: 2;
+}
